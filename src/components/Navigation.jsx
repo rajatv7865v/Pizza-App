@@ -1,9 +1,9 @@
-import React, { useContext } from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
-import { CartContext } from "../CartContext";
+// import { CartContext } from "../CartContext";
 
 const Navigation = () => {
-  const {cart}=useContext(CartContext)
+  // const {cart}=useContext(CartContext)
     const cartStyle={
         background:'orange',
         display:'flex',
