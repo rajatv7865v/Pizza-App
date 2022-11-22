@@ -1,15 +1,15 @@
-import React, { useContext, useEffect, useState } from 'react'
-import { CartContext } from '../CartContext';
+import React from 'react'
+// import { CartContext } from '../CartContext';
 
 const Cart = () => {
   // const [products,setProducts]=useState([]);
-  const {cart}=useContext(CartContext);
+  // const {cart}=useContext(CartContext);
 
 //   useEffect(()=>{
 //  setProducts([cart])
 //   },[cart]);
 
-  console.log("cart",cart);
+  // console.log("cart",cart);
  
   return (
     <div className='container mx-auto lg:w-1/2 w-full pb-24 '>
